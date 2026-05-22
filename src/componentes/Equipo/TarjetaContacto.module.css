@@ -1,0 +1,43 @@
+.equipo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  text-align: center;
+}
+.card {
+  background: #8ad5cd;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 15px auto 0;
+  display: block;
+}
+
+.card {
+  border: none;
+  border-radius: 15px;
+  padding: 15px;
+  background-color: #8ad5cd;
+  height: 100%;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card h6 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.card p {
+  margin-bottom: 5px;
+}
+
