@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import TarjetaContacto from './TarjetaContacto';
+import styles from './TarjetaContacto.module.css';
 
 function Directorio() {
     const [usuarios, setUsuarios] = useState([]);
